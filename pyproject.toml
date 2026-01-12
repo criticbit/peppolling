@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peppolling"
+version = "0.1.0"
+description = "A lightweight open-source Peppol bookkeeping toolkit for small Belgian companies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name="Francis Peck", email="frncspeck@gmail.com" }
+]
+
+dependencies = [
+    "requests",
+    "lxml",
+    "sqlalchemy",
+]
+
+[project.urls]
+Homepage = "https://github.com/criticbit/peppolling"
+Source = "https://github.com/criticbit/peppolling"
+Issues = "https://github.com/criticbit/peppolling/issues"
